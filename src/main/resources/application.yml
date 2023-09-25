@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: demo-springboot
+  profiles:
+    active: local
+
+server:
+  port: 9999
+  servlet:
+    context-path: /simple
